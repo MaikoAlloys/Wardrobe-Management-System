@@ -5,14 +5,14 @@ A full-stack wardrobe management system built with **Vue 3 + TypeScript** for th
 ## Live Demo
 I have a live demo for the system: [View Here](https://drive.google.com/file/d/1vQODWm7OPwHRxJeg5S-IpzWoZII1DJNm/view?usp=sharing)
 
-## 🚀 Features
+##  Features
 - **User Authentication** (Login/Registration)
 - **Add, Edit, and Delete Clothing Items**
 - **Categorize Items** (e.g., Tops, Bottoms, Shoes)
 - **Filter and Search Functionality**
 - **Responsive and User-Friendly UI**
 
-## 💂️ Database Setup
+##  Database Setup
 The **wardrobe_db** MySQL database is required for this system. You can find the SQL dump file (`wardrobe_db.sql`) in the **`wardrobe-management/database`** folder.
 
 ### Importing the Database
@@ -28,7 +28,7 @@ The **wardrobe_db** MySQL database is required for this system. You can find the
 
 ---
 
-## 💂️ Folder Structure
+## Folder Structure
 ```
 project-root/
 │-- wardrobe-management/   # Laravel 11 Backend
@@ -39,7 +39,7 @@ project-root/
 
 ---
 
-## ⚙️ Backend Setup (Laravel 11)
+## Backend Setup (Laravel 11)
 ### Prerequisites
 - PHP 8+
 - Composer
@@ -76,7 +76,7 @@ project-root/
 
 ---
 
-## 🌐 Frontend Setup (Vue 3 + TypeScript)
+## Frontend Setup (Vue 3 + TypeScript)
 ### Prerequisites
 - Node.js
 - npm or yarn
@@ -103,7 +103,7 @@ project-root/
 
 ---
 
-## 🔌 API Endpoints (Backend)
+## API Endpoints (Backend)
 | Method | Endpoint            | Description             |
 |--------|---------------------|-------------------------|
 | POST   | /api/register       | Register a new user     |
@@ -115,14 +115,14 @@ project-root/
 
 ---
 
-## 🗂️ Notes
+## Notes
 - Ensure the backend is running before starting the frontend.
 - Use **Postman** to test API endpoints.
 - Users must be authenticated to manage clothing items.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 ### Backend (Laravel 11)
 - Laravel 11
 - MySQL
@@ -138,7 +138,7 @@ project-root/
 
 ---
 
-## 📌 Future Enhancements
+## Future Enhancements
 - Implement user profile management
 - Improve UI/UX with animations
 - Add cloud storage for images
